@@ -1,9 +1,14 @@
-import "./App.css";
+import { Provider } from "react-redux";
+import Body from "./component/Body";
+import "./index.css";
+import AppStore from "./utils/AppStore";
 
 function App() {
   return (
-    <div className="text-3xl font-bold text-red-400 justify-center m-auto">
-      <h1> working</h1>
+    <div>
+      <Provider store={AppStore}>
+        <Body />
+      </Provider>
     </div>
   );
 }

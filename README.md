@@ -6,16 +6,16 @@
 
 # Feature
 
--Login Page
+# Login Page
 
--Browser
--Header
--Body
--Main Movie
--Trailer in background
--MovieFile & description/play button
--Movie Suggestion
--Movie List\*n
--Netflix-Gpt
--search-bar
--Movie-suggestion
+    # Browser
+       Header
+    # Body
+       # Main Movie
+          -Trailer in background
+           -MovieFile & description/play button
+       # Movie Suggestion
+          -Movie List\*n
+    # Netflix-Gpt
+    # search-bar
+    # Movie-suggestion
