@@ -8,15 +8,20 @@ const UseMovieTrailer = (movieid) => {
   async function getdata() {
     try {
       const response = await fetch(
-        `https://api.themoviedb.org/3/movie/${movieid}/videos?language=en-US`,
+        "https://api.themoviedb.org/3/movie/" +
+          movieid +
+          "/videos?language=en-US",
         API_OPTIONS
       );
+      // console.log(response);
+
       if (!response.ok) {
-        console.log("Api error");
+        // console.log("Api error");
+        throw new Error(` from useMovieTrailer ,${response.status}`);
         return;
       }
       const data = await response.json();
-      //   console.log(data);
+
       const filterdata = data.results.filter(
         (video) => video.type === "Trailer"
       );

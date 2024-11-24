@@ -1,16 +1,17 @@
 import React from "react";
-import Videobcg from "./Videobcg"; // Correct for default export
+import Videobcg from "./Videobcg";
 
 import VideoTitle from "./VideoTitle";
 import { useSelector } from "react-redux";
 
 const MainContainer = () => {
   const movies = useSelector((store) => store.movies?.nowPlayingMovies);
+  // console.log("maincontainer", movies);
 
   if (!movies) return;
 
   const mainMovies = movies[0];
-  // console.log(mainMovies);
+  // console.log("main", mainMovies);
 
   const { original_title, overview, id } = mainMovies;
 
