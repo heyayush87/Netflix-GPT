@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCard from "./MovieCard";
+import UseUpcomingMovies from "../Hooks/UseUpcomingMovies";
 
 const MovieList = ({ title, movies }) => {
   // if (!movies || movies.length === 0) console.log("No movies available");

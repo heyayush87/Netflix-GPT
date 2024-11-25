@@ -5,10 +5,13 @@ import { signOut } from "firebase/auth";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { netflixlogo } from "../utils/constant";
+import { toggleGptsearch } from "../utils/GptSlice";
 
 import { onAuthStateChanged } from "firebase/auth";
 import { adduser, removeuser } from "../utils/UserSlice";
 import { useEffect } from "react";
+import { Supported_Languages } from "../utils/constant";
+import { changeLanguage } from "../utils/ConfigSlice";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -43,7 +46,18 @@ const LoginPage = () => {
     // Unsiubscribe when component unmounts
     return () => unsubscribe();
   }, []);
+  const handleGptSearchClick = () => {
+    // Toggle
 
+    dispatch(toggleGptsearch());
+  };
+
+  const handleChangeLanguage = (e) => {
+    dispatch(changeLanguage(e.target.value));
+    // console.log(e.target.value);
+  };
+
+  const showGpt = useSelector((store) => store.Gpt.showgptsearch);
   return (
     <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
       <img
@@ -51,8 +65,27 @@ const LoginPage = () => {
         src={netflixlogo}
         alt="netflix-logo"
       />
+
       {use && (
         <div className="flex p-2 ">
+          {showGpt && (
+            <select
+              className="p-2 m-2 bg-gray-900 text-white"
+              onChange={handleChangeLanguage}
+            >
+              {Supported_Languages.map((lang) => (
+                <option key={lang.identifiers} value={lang.identifiers}>
+                  {lang.name}
+                </option>
+              ))}
+            </select>
+          )}
+          <button
+            className="px-4 py-2 m-2 font-bold text-white rounded-lg bg-green-600"
+            onClick={handleGptSearchClick}
+          >
+            {showGpt ? "HoMe PaGe" : "GpT SeArCh"}
+          </button>
           <img
             className="hidden md:block w-12 h-12"
             alt="User-Icon"
