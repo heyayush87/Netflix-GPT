@@ -2,8 +2,11 @@
 .🚀 TechStack 🚀
 
  • React: Frontend framework for building user interfaces.
+ 
  • TMDB: Movie database for fetching movie details.
+ 
  • Firebase: Authentication and hosting platform.
+ 
  • OpenAI: Movie recommendation engine.
 
  🚀𝐍𝐞𝐭𝐟𝐥𝐢𝐱-𝐆𝐏𝐓 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🚀🚀
