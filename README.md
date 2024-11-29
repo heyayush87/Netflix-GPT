@@ -1,5 +1,5 @@
 
-.🚀 TechStack 🚀
+## 🚀 TechStack 🚀
 
  • React: Frontend framework for building user interfaces.
  
@@ -9,7 +9,7 @@
  
  • OpenAI: Movie recommendation engine.
 
- 🚀𝐍𝐞𝐭𝐟𝐥𝐢𝐱-𝐆𝐏𝐓 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🚀🚀
+ ## 🚀𝐍𝐞𝐭𝐟𝐥𝐢𝐱-𝐆𝐏𝐓 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🚀🚀
 
   •  𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐚𝐭𝐢𝐨𝐧𝐬: NetflixGPT uses OpenAI GPT-3 to analyze your viewing history and preferences, delivering personalized movie recommendations based on 
       factors like year, cast, genre, and more!
