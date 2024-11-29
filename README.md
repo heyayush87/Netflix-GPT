@@ -10,6 +10,43 @@
     # search-bar
     # Movie-suggestion
 =======
+
+# Features
+
+ AI-Driven Insights
+NetflixGPT doesn't just recommend movies—it learns from your preferences, utilizing GPT-turbo 3.5  advanced AI capabilities to understand your unique taste and offer tailored suggestions that evolve with your viewing habits.
+
+2. Rich Data Filtering
+Find exactly what you’re looking for! Filter recommendations by year, genre, cast, or even mood, ensuring every suggestion resonates with your personal style.
+
+3. Stunning UI Experience
+Enjoy a visually captivating experience designed with React and Tailwind CSS, offering seamless navigation and eye-catching visuals that make movie discovery a delight.
+
+4. Seamless Synchronization
+Effortlessly switch between devices without losing your progress. NetflixGPT ensures your data is synced, providing a consistent experience across all platforms.
+
+5. Privacy-Centric Innovation
+With Firebase's robust authentication and protected routes, NetflixGPT is designed with privacy at its core, keeping your personal data and viewing history secure at all times.
+
+6. Global Access to Content
+Explore movies from diverse cultures and regions, thanks to TMDB integration, bringing a vast library of films to your fingertips.
+
+7. Accessible for All Audiences
+NetflixGPT's multi-language support ensures a welcoming experience for users worldwide, making entertainment accessible in Hindi, English, Spanish
+
+8. Effortless Scalability
+Our modular architecture allows NetflixGPT to grow with your needs. Whether it's new features or enhanced functionality, we're built for the future.
+
+9. Next-Level Speed
+Say goodbye to lags! With optimized memoization, NetflixGPT offers instant recommendations and a consistently smooth browsing experience.
+
+10. Fully Responsive & Modern
+NetflixGPT adapts flawlessly to all screen sizes, providing a premium experience whether you’re on a smartphone, tablet, or desktop.
+
+
+
+
+
 # SIGNIN PAGE 
 ![image alt](https://github.com/heyayush87/Netflix-GPT/blob/7dc4e7ec559451241c8aa34983096084f7a6262c/Screenshot%202024-11-29%20174715.png)
 # SIGNUP PAGE 
@@ -21,51 +58,3 @@
 # SEARCH PAGE
 ![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20175008.png?raw=true)
 
-Create React App
-Configured TailwindCSS
-Header
-Routing of App
-Login Form
-Sign up Form
-Form Validation
-useRef Hook
-Firebase Setup
-Deploying our app to production
-Create SignUp User Account
-Implement Sign In user Api
-Created Redux Store with userSlice
-Implemented Sign out
-Update Profile
-BugFix: Sign up user displayName and profile picture update
-BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
-Unsubscibed to the onAuthStateChanged callback
-Add hardcoded values to the constants file
-Regiter TMDB API & create an app & get access token
-Get Data from TMDB now playing movies list API
-Custom Hook for Now Playing Movies
-Create movieSlice
-Update Store with movies Data
-Planning for MainContauiner & secondary container
-Fetch Data for Trailer Video
-Update Store with Trailer Video Data
-Embedded the Yotube video and make it autoplay and mute
-Tailwind Classes to make Main Container look awesome
-Build Secondary Component
-Build Movie List
-build Movie Card
-TMDB Image CDN URL
-Made the Browsre page amazing with Tailwind CSS
-usePopularMovies Custom hook
-GPT Search Page
-GPT Search Bar
-(BONUS) Multi-language Feature in our App)
-Get Open AI Api Key
-Gpt Search API Call
-fetched gptMoviesSuggestions from TMDB
-created gptSlice added data
-Resused Movie List component to make movie suggestion container
-Memoization
-Added .env file
-Adding .env file to gitignore
-Made our Site Responsive
->>>>>>> ce2afbeb830de5ae3b8e90adba2eb053a06e352d
