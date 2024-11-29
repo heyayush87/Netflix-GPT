@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-# start
-
-# Create React App
-
-# configure Tailwind Css
-
-# Feature
-
-# Login Page
-
-    # Browser
+  # Browser
        Header
     # Body
        # Main Movie
@@ -21,6 +10,8 @@
     # search-bar
     # Movie-suggestion
 =======
+#LOGIN PAGE 
+
 Create React App
 Configured TailwindCSS
 Header
