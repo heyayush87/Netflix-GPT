@@ -1,4 +1,4 @@
-🚀"Development and Deployment of Netflix-GPT App" 🚀
+🚀 Development and Deployment of Netflix-GPT App 🚀
 
 
 1.Configured Create React App with TailwindCSS for styling.
