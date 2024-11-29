@@ -1,5 +1,6 @@
 🚀"Development and Deployment of Netflix-GPT App" 🚀
 
+
 1.Configured Create React App with TailwindCSS for styling.
 
 2.Implemented Routing, Header, Login/Sign-Up Forms, and Form Validation using useRef.
@@ -29,7 +30,8 @@
 
 🚀 Features 🚀
 
- AI-Driven Insights
+
+1. AI-Driven Insights
 NetflixGPT doesn't just recommend movies—it learns from your preferences, utilizing GPT-turbo 3.5  advanced AI capabilities to understand your unique taste and offer tailored suggestions that evolve with your viewing habits.
 
 2. Rich Data Filtering
