@@ -1,17 +1,33 @@
-  # Browser
-       Header
-    # Body
-       # Main Movie
-          -Trailer in background
-           -MovieFile & description/play button
-       # Movie Suggestion
-          -Movie List\*n
-    # Netflix-Gpt
-    # search-bar
-    # Movie-suggestion
-=======
+🚀"Development and Deployment of Netflix-GPT App" 🚀
 
-# Features
+1.Configured Create React App with TailwindCSS for styling.
+
+2.Implemented Routing, Header, Login/Sign-Up Forms, and Form Validation using useRef.
+
+3.Integrated Firebase for authentication, account creation, sign-in/out, profile updates, and deployed the app.
+
+4.Utilized Redux with userSlice and movieSlice for state management.
+
+5.Registered and used TMDB API for fetching movies and trailers via custom hooks.
+
+6.Built reusable Movie List, Movie Card, and Trailer Components with responsive Tailwind styling.
+
+7.Developed GPT Search Page with OpenAI API integration for movie recommendations and multi-language support.
+
+8.Added environment configuration via .env and ensured secure deployment with .gitignore.
+
+9.Enhanced performance with Memoization and organized constants for maintainability.
+
+10.Fixed key bugs including user redirection and profile picture updates.
+
+
+
+
+
+
+
+
+🚀 Features 🚀
 
  AI-Driven Insights
 NetflixGPT doesn't just recommend movies—it learns from your preferences, utilizing GPT-turbo 3.5  advanced AI capabilities to understand your unique taste and offer tailored suggestions that evolve with your viewing habits.
