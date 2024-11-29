@@ -16,6 +16,8 @@
 ![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20174737.png?raw=true)
 # BROWSE PAGE
 ![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20174841.png?raw=true)
+# MOVIE LIST 
+![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20174841.png?raw=true)
 
 Create React App
 Configured TailwindCSS
