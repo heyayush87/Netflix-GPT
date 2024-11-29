@@ -19,6 +19,7 @@
 # MOVIE LIST 
 ![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20174919.png?raw=true)
 # SEARCH PAGE
+![image alt](https://github.com/heyayush87/Netflix-GPT/blob/main/Screenshot%202024-11-29%20175008.png?raw=true)
 
 Create React App
 Configured TailwindCSS
