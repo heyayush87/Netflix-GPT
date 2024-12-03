@@ -7,7 +7,7 @@
  
  • Firebase: Authentication and hosting platform.
  
- •  Gemini: Movie recommendation engine.
+ •  Gemini Cloud AI: Movie recommendation engine.
 
  ## 🚀𝐍𝐞𝐭𝐟𝐥𝐢𝐱-𝐆emini 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🚀🚀
 
